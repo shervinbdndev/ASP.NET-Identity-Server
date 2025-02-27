@@ -1,0 +1,6 @@
+@SsoSample.API_HostAddress = http://localhost:5063
+
+GET {{SsoSample.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
