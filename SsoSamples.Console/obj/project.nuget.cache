@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "aKF4lnZXB/U=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Shervin\\Desktop\\Scripts\\Csharp\\ASP\\Identity Server\\SsoSamples.Console\\SsoSamples.Console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Shervin\\.nuget\\packages\\identitymodel\\6.0.0\\identitymodel.6.0.0.nupkg.sha512",
+    "C:\\Users\\Shervin\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
