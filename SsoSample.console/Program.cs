@@ -1,7 +1,7 @@
-﻿using Newtonsoft.Json;
+﻿﻿using Newtonsoft.Json;
 using SsoSample.MVC.Models;
 
-namespace SsoSample.console;
+namespace SsoSample.Console;
 
 class Program
 {
@@ -17,9 +17,10 @@ class Program
 
         foreach (var item in result!) {
 
-            Console.WriteLine($"{item.Date}\t {item.Summery}\t {item.TemperatureC}\t {item.TemperatureF}");
-            Console.WriteLine("".PadLeft(200, '-'));
+            System.Console.WriteLine($"{item.Date}\t {item.Summery}\t {item.TemperatureC}\t {item.TemperatureF}");
+            System.Console.WriteLine("".PadLeft(200, '-'));
         }
-        Console.ReadLine();
+
+        System.Console.ReadLine();
     }
 }

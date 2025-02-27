@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
+    "net9.0": {
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -50,7 +50,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0": [
+    "net9.0": [
       "Newtonsoft.Json >= 13.0.3"
     ]
   },
@@ -61,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Shervin\\Desktop\\Scripts\\Csharp\\ASP\\Identity Server\\SsoSample.console\\SsoSample.console.csproj",
-      "projectName": "SsoSample.console",
-      "projectPath": "C:\\Users\\Shervin\\Desktop\\Scripts\\Csharp\\ASP\\Identity Server\\SsoSample.console\\SsoSample.console.csproj",
+      "projectUniqueName": "C:\\Users\\Shervin\\Desktop\\Scripts\\Csharp\\ASP\\Identity Server\\SsoSample.Console\\SsoSample.Console.csproj",
+      "projectName": "SsoSample.Console",
+      "projectPath": "C:\\Users\\Shervin\\Desktop\\Scripts\\Csharp\\ASP\\Identity Server\\SsoSample.Console\\SsoSample.Console.csproj",
       "packagesPath": "C:\\Users\\Shervin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Shervin\\Desktop\\Scripts\\Csharp\\ASP\\Identity Server\\SsoSample.console\\obj\\",
+      "outputPath": "C:\\Users\\Shervin\\Desktop\\Scripts\\Csharp\\ASP\\Identity Server\\SsoSample.Console\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -76,16 +76,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net9.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "projectReferences": {}
         }
       },
@@ -98,11 +97,12 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net9.0": {
+        "targetAlias": "net9.0",
         "dependencies": {
           "Newtonsoft.Json": {
             "target": "Package",
@@ -125,7 +125,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
